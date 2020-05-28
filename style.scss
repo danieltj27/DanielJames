@@ -52,7 +52,7 @@ h1 {
 p {
 	margin: 0;
 	&.message {
-		background-color: #028BFF;
+		background-color: #028bff;
 		padding: 8px 14px;
 		display: inline-block;
 		border-radius: 20px;
@@ -61,7 +61,7 @@ p {
 		line-height: 16px;
 		position: relative;
 		&::before {
-			background-color: #028BFF;
+			background-color: #028bff;
 			width: 10px;
 			height: 10px;
 			display: block;
@@ -70,6 +70,12 @@ p {
 			left: calc( 50% - 5px );
 			content: '';
 			transform: rotate( -45deg );
+		}
+		&--green {
+			background-color: #00c733;
+			&::before {
+				background-color: #00c733;
+			}
 		}
 	}
 }
