@@ -1,3 +1,3 @@
 # Daniel James
 
-My personal website for [me](https://danieljames.uk/).
+[My](https://danieljames.uk/) own little space online.

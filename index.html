@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="app">
-<img src="dan.png" alt="Dan as a Memoji" id="image" />
+<img src="dan.png" alt="Daniel James" id="image" />
 <h1>Daniel James</h1>
 <p class="message" id="message">Hiya, how's it going?</p>
 </div>
@@ -22,7 +22,6 @@
 var now = new Date();
 if ( '20' <= now.getHours() || '07' >= now.getHours() ) {
 document.documentElement.className += 'night';
-document.getElementById( 'image' ).src = 'sleepy-dan.png';
 document.getElementById( 'message' ).innerHTML = 'Night, night world.';
 }
 </script>
