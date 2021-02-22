@@ -1,3 +1,3 @@
 # Daniel James
 
-My web page about me.
+My website.
