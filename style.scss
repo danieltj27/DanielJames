@@ -91,3 +91,11 @@ p {
 		}
 	}
 }
+
+.privacy-policy {
+	h1 {
+		&::after {
+			display: none;
+		}
+	}
+}
