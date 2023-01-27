@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+html {
+	background-color: #2c2332;
+	background-image: linear-gradient(to top, #0a1021, #15203c);
+}
+
 html,
 body {
 	width: 100%;
@@ -11,7 +16,7 @@ body {
 }
 
 body {
-	background-color: #1a1a25;
+	background: transparent;
 	color: #fff;
 	font-size: 18px;
 	line-height: 28px;
