@@ -1,3 +1,3 @@
 # Daniel James
 
-My website.
+My home on the internet.
