@@ -147,7 +147,7 @@ body {
 		&.contact {
 			background-repeat: no-repeat;
 			background-position: 2px 50%;
-			background-size: 14px;
+			background-size: 14px 14px;
 
 			padding-left: 30px;
 
@@ -210,8 +210,8 @@ p {
 }
 
 .button {
-	background-color: #000000;
-	border: 1px solid #000000;
+	background-color: #444444;
+	border: 1px solid transparent;
 	width: auto;
 
 	margin: 0 10px 0 0;
@@ -227,18 +227,19 @@ p {
 
 	text-decoration: none;
 
+	transition: ease-in-out all 0.25s;
+
 	&--ext {
 		background-image: url('../img/icon-box-arrow.svg');
 		background-repeat: no-repeat;
 		background-position: 18px 50%;
-		background-size: 16px;
+		background-size: 16px 16px;
 
 		padding: 8px 18px 8px 44px;
 	}
 
 	&:hover,
 	&:focus {
-		background-color: transparent;
-		border: 1px solid #000000;
+		background-color: #000000;
 	}
 }
