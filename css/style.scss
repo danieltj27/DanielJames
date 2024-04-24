@@ -3,7 +3,7 @@
 }
 
 html {
-	background-color: #222222;
+	background-color: #0a0c10;
 }
 
 html,
@@ -134,7 +134,7 @@ body {
 	}
 
 	ul {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 
 	li {
@@ -214,31 +214,50 @@ p {
 	border: 1px solid transparent;
 	width: auto;
 
-	margin: 0 10px 0 0;
-	padding: 8px 18px;
+	margin: 0 15px 0 0;
+	padding: 6px 14px;
 
 	display: inline-block;
 
 	color: #ffffff;
-	font-size: 18px;
-	line-height: 28px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
 	text-align: center;
 
 	text-decoration: none;
 
-	transition: ease-in-out background-color 0.25s;
+	border-radius: 3px;
+	transition: ease-in-out background-color 0.25s, transform 0.25s;
 
-	&--ext {
+	&--ext,
+	&--gh,
+	&--yt {
 		background-image: url('../img/icon-box-arrow.svg');
 		background-repeat: no-repeat;
-		background-position: 18px 50%;
+		background-position: 14px 50%;
 		background-size: 16px 16px;
 
-		padding: 8px 18px 8px 44px;
+		padding: 6px 14px 6px 40px;
 	}
 
-	&:hover,
+	&--gh {
+		background-color: #222222;
+		background-image: url('../img/icon-social-github.svg');
+	}
+
+	&--yt {
+		background-color: #ff0000;
+		background-image: url('../img/icon-social-youtube.svg');
+	}
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
 	&:focus {
-		background-color: #000000;
+		border-color: #ffffff;
+
+		outline: none;
 	}
 }
